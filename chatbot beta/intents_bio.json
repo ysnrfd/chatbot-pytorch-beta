@@ -1,0 +1,125 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Howdy", "Hi there"],
+        "responses": ["Hello! How can I assist you?", "Hi there! How can I help you today?", "Hey! What can I do for you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Bye", "See you later", "Farewell", "Take care"],
+        "responses": ["Goodbye! Have a great day.", "Bye! Come back soon.", "See you later! Take care."]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks", "Thanks a lot", "Thank you very much"],
+        "responses": ["You're welcome!", "You're welcome. Glad I could help.", "No problem!"]
+      },
+      {
+        "tag": "assist",
+        "patterns": ["help me", "can you help me", "please help me", "i need help", "assist me", "i need assist", "i have problem", "i have some problem"],
+        "responses": ["how i can help you?", "can i help you", "i made for help you", "i made for assist you", "how i can solve your problem?"]
+      },
+      {
+        "tag": "biology_definition",
+        "patterns": ["What is biology?", "Define biology", "Tell me about biology", "bio"],
+        "responses": ["Biology is the scientific study of living organisms, including their structure, function, growth, evolution, distribution, and taxonomy.", "Biology explores the diversity of life forms, from single-celled organisms to complex ecosystems, and investigates how organisms interact with their environment."]
+      },
+      {
+        "tag": "branches_of_biology",
+        "patterns": ["What are the branches of biology?", "Types of biology disciplines", "Tell me about biology branches"],
+        "responses": ["Branches of biology include zoology (study of animals), botany (study of plants), microbiology (study of microorganisms), genetics (study of heredity), ecology (study of ecosystems), and anatomy (study of structure). Each branch focuses on specific aspects of living organisms and their interactions."]
+      },
+      {
+        "tag": "dna",
+        "patterns": ["What is DNA?", "Tell me about DNA", "Define DNA"],
+        "responses": ["DNA (deoxyribonucleic acid) is a molecule that carries the genetic instructions for the development, functioning, growth, and reproduction of all known living organisms and many viruses. It consists of two long chains of nucleotides twisted into a double helix structure."]
+      },
+      {
+        "tag": "cell_structure",
+        "patterns": ["Describe the structure of a cell", "What is a cell made of?", "Tell me about cell anatomy"],
+        "responses": ["A cell is the basic structural and functional unit of life. It typically consists of a cell membrane, cytoplasm, and genetic material (DNA or RNA). Cells may also contain organelles such as mitochondria, ribosomes, and the nucleus, depending on the type of cell."]
+      },
+      {
+        "tag": "evolution",
+        "patterns": ["What is evolution?", "Tell me about biological evolution", "Define evolution in biology"],
+        "responses": ["Evolution is the change in the heritable characteristics of biological populations over successive generations. It results from processes such as natural selection, genetic drift, and mutation, leading to diversity in organisms and adaptation to their environments."]
+      },
+      {
+        "tag": "ecosystem",
+        "patterns": ["What is an ecosystem?", "Tell me about ecosystems", "Define ecosystem in biology"],
+        "responses": ["An ecosystem is a community of living organisms (plants, animals, and microbes) in conjunction with the nonliving components of their environment (such as air, water, and mineral soil), interacting as a system. Ecosystems vary in size and can be as small as a pond or as large as a forest."]
+      },
+      {
+        "tag": "human_anatomy",
+        "patterns": ["Describe human anatomy", "What is human anatomy?", "Tell me about the anatomy of humans"],
+        "responses": ["Human anatomy is the study of the structure of the human body. It includes organs, tissues, bones, muscles, and systems such as the respiratory, circulatory, and nervous systems. Understanding human anatomy is crucial in fields like medicine and physiology."]
+      },
+      {
+        "tag": "biochemistry",
+        "patterns": ["What is biochemistry?", "Tell me about biochemistry", "Define biochemistry in biology"],
+        "responses": ["Biochemistry is the branch of science that explores the chemical processes within and related to living organisms. It focuses on the structure, function, and interactions of biological molecules such as proteins, nucleic acids, carbohydrates, and lipids."]
+      },
+      {
+        "tag": "genetics",
+        "patterns": ["What is genetics?", "Tell me about genetics", "Define genetics in biology"],
+        "responses": ["Genetics is the branch of biology concerned with the study of genes, genetic variation, and heredity in organisms. It explores how traits are passed down from parents to offspring and the molecular mechanisms underlying inheritance."]
+      },
+      {
+        "tag": "biotechnology",
+        "patterns": ["What is biotechnology?", "Tell me about biotechnology", "Define biotechnology in biology"],
+        "responses": ["Biotechnology is the use of biological systems, organisms, or derivatives to develop products or processes for specific applications. It includes areas such as genetic engineering, pharmaceuticals, and agricultural improvements."]
+      },
+      {
+        "tag": "ecology",
+        "patterns": ["What is ecology?", "Tell me about ecology", "Define ecology in biology"],
+        "responses": ["Ecology is the scientific study of interactions among organisms and their environment. It examines relationships between living organisms (biotic factors) and their physical environment (abiotic factors) at various levels of organization, from individual species to entire ecosystems."]
+      },
+      {
+        "tag": "botany",
+        "patterns": ["What is botany?", "Tell me about botany", "Define botany in biology"],
+        "responses": ["Botany is the branch of biology that focuses on the scientific study of plants, including their structure, growth, reproduction, metabolism, and classification. It encompasses aspects such as plant physiology, taxonomy, and ecology."]
+      },
+      {
+        "tag": "zoology",
+        "patterns": ["What is zoology?", "Tell me about zoology", "Define zoology in biology"],
+        "responses": ["Zoology is the branch of biology that studies animals, including their structure, behavior, physiology, evolution, and ecology. Zoologists often specialize in specific groups of animals or aspects of their biology, such as marine biology or ethology."]
+      },
+      {
+        "tag": "microbiology",
+        "patterns": ["What is microbiology?", "Tell me about microbiology", "Define microbiology in biology"],
+        "responses": ["Microbiology is the branch of biology that studies microorganisms, including bacteria, viruses, fungi, and protists. It explores their morphology, physiology, genetics, ecology, and interactions with other organisms and the environment."]
+      },
+      {
+        "tag": "physiology",
+        "patterns": ["What is physiology?", "Tell me about physiology", "Define physiology in biology"],
+        "responses": ["Physiology is the branch of biology that deals with the normal functions of living organisms and their parts. It includes how organs and systems work together to maintain homeostasis, regulate bodily functions, and respond to changes in the environment."]
+      },
+      {
+        "tag": "anatomy",
+        "patterns": ["What is anatomy?", "Tell me about anatomy", "Define anatomy in biology"],
+        "responses": ["Anatomy is the branch of biology that studies the structure and organization of living organisms. It examines the arrangement of organs, tissues, and cells in both plants and animals, providing insights into their form and function."]
+      },
+      {
+        "tag": "reproduction",
+        "patterns": ["How does reproduction work?", "Tell me about reproduction in biology", "Define reproduction"],
+        "responses": ["Reproduction is the biological process by which organisms produce offspring. It involves the transmission of genetic material from parent organisms to their offspring, ensuring continuity of species."]
+      },
+      {
+        "tag": "photosynthesis",
+        "patterns": ["What is photosynthesis?", "Tell me about photosynthesis", "Define photosynthesis in biology"],
+        "responses": ["Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose molecules. It is a fundamental process that sustains life on Earth by producing oxygen and organic compounds."]
+      },
+      {
+        "tag": "cellular_respiration",
+        "patterns": ["What is cellular respiration?", "Tell me about cellular respiration", "Define cellular respiration in biology"],
+        "responses": ["Cellular respiration is the metabolic process by which cells obtain energy from organic molecules, typically glucose. It involves a series of chemical reactions that release energy stored in glucose molecules and produce ATP (adenosine triphosphate), the cell's primary energy carrier."]
+      },
+      {
+        "tag": "not_understood",
+        "patterns": [],
+        "responses": ["I'm sorry, I don't understand. Could you please rephrase?", "I'm not sure I follow. Can you say that again in a different way?", "I didn't quite catch that. Could you repeat what you said?"]
+      }
+    ]
+  }
+  

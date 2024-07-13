@@ -1,0 +1,170 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Howdy",
+          "What's up",
+          "Good morning",
+          "Good afternoon",
+          "Good evening"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What can I do for you?",
+          "Hey! How can I help?",
+          "Hello! What do you need assistance with?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Take care",
+          "Catch you later",
+          "Have a nice day"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later! Take care!",
+          "Bye! Come back if you need anything!",
+          "Goodbye! Have a nice day!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Thanks a lot",
+          "Thank you very much",
+          "I appreciate it",
+          "Thanks for your help"
+        ],
+        "responses": [
+          "You're welcome!",
+          "No problem!",
+          "Glad to help!",
+          "Anytime!"
+        ]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+          "Sorry, I don't understand.",
+          "I'm not sure I understand.",
+          "Can you rephrase that?",
+          "I'm sorry, could you clarify?"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "What is your name?",
+          "Who are you?",
+          "What's your name?",
+          "Can you tell me your name?"
+        ],
+        "responses": [
+          "I'm an AI chatbot.",
+          "You can call me Chatbot.",
+          "I'm a virtual assistant."
+        ]
+      },
+      {
+        "tag": "age",
+        "patterns": [
+          "How old are you?",
+          "What is your age?",
+          "When were you created?",
+          "How long have you been around?"
+        ],
+        "responses": [
+          "I'm as old as the internet!",
+          "I was created by my developers recently.",
+          "Age is just a number for me!",
+          "I'm a timeless entity, here to assist you."
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather like?",
+          "How's the weather?",
+          "Is it going to rain today?",
+          "What's the forecast for today?",
+          "Will it be sunny today?"
+        ],
+        "responses": [
+          "I'm not able to check the weather currently.",
+          "You can check the latest weather updates on your preferred weather website.",
+          "I recommend looking at a weather app for the latest updates."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where are you located?",
+          "Where are you from?",
+          "Where do you live?",
+          "Where is your office?"
+        ],
+        "responses": [
+          "I'm based in the cloud, accessible from anywhere!",
+          "I'm a virtual entity, so I don't have a physical location.",
+          "I exist wherever you need me to be."
+        ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "What are your hours of operation?",
+          "When are you available?",
+          "Are you open 24/7?",
+          "Can I reach you at any time?"
+        ],
+        "responses": [
+          "I'm available 24/7 to assist you!",
+          "You can reach me anytime, day or night.",
+          "I'm here to help whenever you need me."
+        ]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "What services do you offer?",
+          "How can you help me?",
+          "What can you do?",
+          "What tasks can you perform?"
+        ],
+        "responses": [
+          "I can assist you with a variety of tasks, including answering questions, providing information, and helping with basic needs.",
+          "I'm here to help with any questions or issues you might have.",
+          "I can provide information, support, and guidance on many topics."
+        ]
+      },
+      {
+        "tag": "jokes",
+        "patterns": [
+          "Tell me a joke",
+          "Do you know any jokes?",
+          "Make me laugh",
+          "Can you tell a funny story?"
+        ],
+        "responses": [
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "I told my computer I needed a break, and now it won't stop sending me Kit-Kat commercials.",
+          "Why do cows have hooves instead of feet? Because they lactose!",
+          "why doctor do nothing because they are advanced doctor cold joke :)"
+        ]
+      }
+    ]
+  }
+  
